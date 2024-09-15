@@ -1,0 +1,24 @@
+.sidenav-container{
+    background: #fff;
+    width: 13%;
+    font-size: 18px;
+    font-weight: 600;
+    height: 93.5vh;
+    margin-top: 4px;
+    padding-top: 25px;
+    position: fixed;
+}
+ul a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 20px;
+    text-decoration: none;
+    color: #000;
+}
+ul li{
+    list-style: none;
+}
+.second-section-nav{
+    margin-top: 360px;
+}
