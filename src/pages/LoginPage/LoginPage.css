@@ -21,7 +21,7 @@
  h1{
     font-size: 30px;
     margin-bottom: 60px;
-    color: #fc6e10;
+    color: #119f45;
     position: relative;
     text-align: center;
  }
@@ -30,7 +30,7 @@
     width: 30px;
     height: 4px;
     border-radius: 3px;
-    background: #fc6e10;
+    background: #119f45;
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -63,7 +63,7 @@
  }
  
 form button{
-    background: #fc6e10;
+    background: #119f45;
     color: #ffff;
     padding: 10px 15px;
     border-radius: 20px;

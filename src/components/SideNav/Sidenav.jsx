@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import {  BiLogOut } from 'react-icons/bi'
 import { FaChartBar, FaWallet } from 'react-icons/fa'
 import { MdDashboard } from 'react-icons/md'
@@ -10,7 +11,7 @@ const Sidenav = () => {
     <div className='sidenav-container'>
         <ul>
             <a href=""><MdDashboard/><li>Dashboard</li></a>
-            <a href=""><FaWallet/><li>Budget</li></a>
+            <Link to="/budget"><FaWallet/><li>Budget</li></Link>
             <a href=""><FaChartBar/><li>Analysis</li></a>
         </ul>
         <ul className='second-section-nav'>

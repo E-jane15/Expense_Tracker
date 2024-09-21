@@ -22,7 +22,7 @@ const SignUpPage = () => {
             <input type="password" placeholder='Password'/>
         </div>
         <p>Already have and account? 
-          <Link to="/login">Click Here</Link></p>
+          <Link to="/login" className='login-link' > Click Here</Link></p>
         <button >Sign Up</button>
         </form>
       </div>

@@ -1,0 +1,16 @@
+.content-container{
+    padding-left:15%;
+}
+.content-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 97%;
+}
+.column-1{
+    flex-basis: 56%;
+}
+.column-2{
+    background: red;
+    flex-basis: 44%;
+}
