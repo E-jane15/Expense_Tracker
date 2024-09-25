@@ -25,24 +25,6 @@
     align-items: center;
     gap: 200px;
 }
-.search{
-    display: flex;
-    align-items: center;
-    height: 4vh;
-    padding: 10px;
-    width: 350px;
-    border-radius: 3px;
-    border: 1px solid #666565;
-}
-.search-icon{
-    width: 13px;
-    color: #666565;
-}
-.search input{
-    border: none;
-    outline: none;
-    color: #666565;
-}
 .user-section {
     display: flex;
     align-items: center;

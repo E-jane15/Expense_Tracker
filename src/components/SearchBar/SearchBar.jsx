@@ -4,13 +4,10 @@ import './SearchBar.css'
 
 const SearchBar = () => {
   return (
-    <div className='search-section'>
-    <p>SAVEIT</p>
-    <div className='search'>
-      <BiSearch className='search-icon'/>
-      <input type="text" placeholder='Search' />
-    </div>
-  </div>
+      <div className='search'>
+          <BiSearch className='search-icon'/>
+          <input type="text" placeholder='Search' />
+      </div>
   )
 }
 

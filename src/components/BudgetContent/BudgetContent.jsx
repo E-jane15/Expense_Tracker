@@ -1,6 +1,7 @@
 import React from 'react'
 import Budget from '../Budget/Budget.jsx'
 import './BudgetContent.css'
+import ExpenseList from '../ExpenseList/ExpenseList.jsx'
 
 const BudgetContent = () => {
   return (
@@ -9,7 +10,9 @@ const BudgetContent = () => {
            <div className='content-column1'>
             <Budget/>
            </div>
-            <div className='content-column2'> Hi</div>
+            <div className='content-column2'> 
+              <ExpenseList/>
+            </div>
         </div>
         
     </div>
