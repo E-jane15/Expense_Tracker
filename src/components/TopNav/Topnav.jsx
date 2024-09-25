@@ -1,6 +1,7 @@
 import React from 'react'
-import { BiBell, BiSearch } from 'react-icons/bi'
+import { BiBell} from 'react-icons/bi'
 import profile from '../../assets/myavatar.jpg'
+import SearchBar from '../SearchBar/SearchBar'
 import './Topnav.css'
 
 const Topnav = () => {
@@ -8,13 +9,7 @@ const Topnav = () => {
     <div className='topnav-container'>
          
         <div className='topnav-wrapper'>
-            <div className='search-section'>
-              <p>SAVEIT</p>
-              <div className='search'>
-                <BiSearch className='search-icon'/>
-                <input type="text" placeholder='Search' />
-              </div>
-            </div>
+            <SearchBar/>
             <div className='user-section'>
                 <BiBell className='notification'/>
                 <img src={profile}/>
