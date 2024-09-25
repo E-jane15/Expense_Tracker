@@ -10,7 +10,7 @@ const Sidenav = () => {
   return (
     <div className='sidenav-container'>
         <ul>
-            <a href=""><MdDashboard/><li>Dashboard</li></a>
+            <Link to="/dashboard"><MdDashboard/><li>Dashboard</li></Link>
             <Link to="/budget"><FaWallet/><li>Budget</li></Link>
             <a href=""><FaChartBar/><li>Analysis</li></a>
         </ul>

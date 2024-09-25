@@ -1,0 +1,27 @@
+.budgetcontainer{
+    background-color: #fff;
+}
+.budgetwrapper{
+    padding: 20px 10px 20px 20px;
+    width: 97%;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.budget-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0ecec;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 5px;
+}
+.flex-div a{
+    color: #119f45;
+}
+.budgetcontainer h4{
+    font-weight: 500;
+}
