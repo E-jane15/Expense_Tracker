@@ -5,7 +5,6 @@ const TotalBalanceChart = () => {
   return (
     <div className='chart-container'>
         <div className='chart-wrapper'>
-        <strong className='chart-title'>Total Balance</strong>
         <Chart
         type='bar'
         width={600}

@@ -9,6 +9,7 @@
     position: fixed;
 }
 ul a{
+
     display: flex;
     align-items: center;
     gap: 12px;
@@ -21,4 +22,11 @@ ul li{
 }
 .second-section-nav{
     margin-top: 360px;
+}
+.nav-option:hover{
+    padding: 2px;
+    font-weight: 500;
+    border-radius: 3px;
+    background: #119f45; 
+    color: #fff;
 }

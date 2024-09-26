@@ -15,8 +15,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #f0ecec;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
     margin: 10px 5px;
 }
 .flex-div a{
@@ -24,4 +23,10 @@
 }
 .budgetcontainer h4{
     font-weight: 500;
+}
+.budget-list:hover{
+    color: #fff;
+    border-radius: 3px;
+    background: #119f45;
+    cursor: pointer;
 }

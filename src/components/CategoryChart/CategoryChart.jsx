@@ -3,23 +3,21 @@ import Chart from 'react-apexcharts'
 
 const CategoryChart = () => {
   return (
-    <div>
+    <div className='chart'>
         <Chart
-        type='pie'
-        width={200}
-        height={200}
-        series={[
-            {
-                name:'Company1',
-                data:[100,200,300,400]
-            },
-            {
-                 name:'Company2',
-                 data:[150,450,350,450]
-            }
-        ]}
+        type='donut'
+        
+        series={[44,55,41,17]}
         options={{
-            colors:("#000", '')
+            labels:['Apple', 'Mango','Orange', 'Watermelon'],
+            plotOptions:{
+              pie:{
+                donut:{
+                  size:'60%'
+                },
+                customScale:0.8
+              }
+            }
         }}
         />
     </div>

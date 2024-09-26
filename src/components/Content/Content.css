@@ -3,14 +3,30 @@
 }
 .content-wrapper{
     display: flex;
-    align-items: center;
     gap: 30px;
     width: 97%;
 }
 .column-1{
+    
     flex-basis: 56%;
 }
 .column-2{
-    background: red;
+    background: #fff;
     flex-basis: 44%;
+}
+.goal{
+    font-size: 12px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.column-2 h4{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.chart-budget{
+    margin-top: 8px;
+    background: #fff;
+}
+.chart-title{
+    padding: 15px;
 }

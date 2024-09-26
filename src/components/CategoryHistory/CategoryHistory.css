@@ -1,0 +1,17 @@
+.history-wrapper{
+    padding: 13px;
+}
+.history-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.history-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.history-content p{
+    font-size: 14px;
+}

@@ -1,0 +1,36 @@
+.expenselist-container{
+    background: #fff;
+}
+.expenselist-wrapper{
+    padding: 20px 10px 20px 20px;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+}
+.expense-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editdelete-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    align-self: flex-end;
+}
+.edit-section, .delete-section{
+    display: flex;
+    align-items: center;
+    color: #2b2a2a;
+}
+.edit-section:hover, .delete-section:hover{
+    color: #119f45;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid #000;
+}

@@ -1,5 +1,4 @@
 .budgetfolder-container{
-    background: #fff;
     padding: 20px;
 }
 .budgetfolder-heading{
@@ -15,4 +14,7 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #000;
+}
+.budgetfolder-content p{
+    font-size: 14px;
 }

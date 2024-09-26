@@ -3,7 +3,6 @@
 }
 .budgetcontent-wrapper{
     display: flex;
-    align-items: center;
     gap: 50px;
     width: 97%;
 }
@@ -11,5 +10,5 @@
     flex-basis: 30%;
 }
 .content-column2{
-    flex-basis: 50%;
+    flex-basis: 65%;
 }

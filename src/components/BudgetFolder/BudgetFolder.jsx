@@ -12,6 +12,14 @@ const BudgetFolder = () => {
            <p>Personal Needs</p>
            <p>April 2024</p>
         </div>
+        <div className='budgetfolder-content'>
+           <p>Personal Needs</p>
+           <p>April 2024</p>
+        </div>
+        <div className='budgetfolder-content'>
+           <p>Personal Needs</p>
+           <p>April 2024</p>
+        </div>
     </div>
   )
 }

@@ -10,13 +10,13 @@ const Sidenav = () => {
   return (
     <div className='sidenav-container'>
         <ul>
-            <Link to="/dashboard"><MdDashboard/><li>Dashboard</li></Link>
-            <Link to="/budget"><FaWallet/><li>Budget</li></Link>
-            <a href=""><FaChartBar/><li>Analysis</li></a>
+            <Link to="/dashboard" className='nav-option'><MdDashboard/><li>Dashboard</li></Link>
+            <Link to="/budget" className='nav-option'><FaWallet/><li>Budget</li></Link>
+            <a href="" className='nav-option'><FaChartBar/><li>Analysis</li></a>
         </ul>
         <ul className='second-section-nav'>
-          <a href=""><RiSettings2Fill/><li>Settings</li></a>
-          <a href=""><BiLogOut/><li>Logout</li></a>
+          <a href="" className='nav-option'><RiSettings2Fill/><li>Settings</li></a>
+          <a href="" className='nav-option'><BiLogOut/><li>Logout</li></a>
         </ul>
     </div>
   )
