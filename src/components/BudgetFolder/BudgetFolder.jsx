@@ -6,7 +6,7 @@ const BudgetFolder = () => {
     <div className='budgetfolder-container'>
         <div className='budgetfolder-heading'>
             <p>Budget Folder</p>
-            <a href="">View All</a>
+            <a href="" >View All</a>
         </div>
         <div className='budgetfolder-content'>
            <p>Personal Needs</p>

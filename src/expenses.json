@@ -1,0 +1,37 @@
+[
+   
+    {
+      "id":1,
+      "category": " Food",
+      "description": "Necessary",
+       "amount":"10000",
+       "date" : "22/03/2024"
+    },
+    {   "id":2,
+        "category": " Fuel",
+        "description": "Necessary",
+         "amount":"7000",
+         "date" : "22/03/2024"
+      },
+      { 
+        "id":3,
+        "category": " Food",
+        "description": "Necessary",
+         "amount":"10000",
+         "date" : "22/03/2024"
+      },
+      {
+         "id":4,
+        "category": " Food",
+        "description": "Necessary",
+         "amount":"15000",
+         "date" : "22/03/2024"
+      },
+      { 
+        "id":5,
+        "category": " Food",
+        "description": "Necessary",
+         "amount":"4000",
+         "date" : "22/03/2024"
+      }
+]
