@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Chart from 'react-apexcharts'
-import expenses from '../../expenses.json'
+import initialexpenses from '../../initialexpenses.json'
 
 const TotalBalanceChart = () => {
    const [chartData, setChartData] = useState({series:[],options:{}});
 
    useEffect(()=>{
-    const expenseAmount = expenses.map((expense)=>(expense.amount));
+    const expenseAmount = initialexpenses.map((expense)=>(expense.amount));
     setChartData({
       series:[{
         name: "Expenses",

@@ -11,6 +11,7 @@
 .search-icon{
     width: 13px;
     color: #666565;
+    margin-right: 5px;
 }
 .search input{
     border: none;
