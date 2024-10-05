@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Content.css'
 import Balance from '../Balance/Balance'
 import TotalBalanceChart from '../TotalBalanceChart/TotalBalanceChart'
@@ -11,7 +11,7 @@ const Content = () => {
     <div className='content-container'>
         <div className='content-wrapper'>
             <div className='column-1'>
-               <Balance/>
+               <Balance />
                <div className='chart-budget'>
                 <strong className='chart-title'>Total Balance</strong>
                <TotalBalanceChart/>

@@ -1,4 +1,7 @@
 .balance-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #119f45;
     color: #fff;
     padding: 10px 15px;
