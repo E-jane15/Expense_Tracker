@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Balance.css'
 import Button from '../Button/Button';
 import { calculateTotal } from '../ExpenseList/ExpenseList';
@@ -16,10 +16,20 @@ const Balance =()=>{
   const handleInputChange =(e)=>{
       setTempIncome(e.target.value);
   };
+  useEffect(() => {
+    const localIncome = JSON.parse(localStorage.getItem("income"));
+    if (localIncome) {
+      setIncome(localIncome);
+    } else {
+      setIncome(10000);
+    }
 
-  //function to save new budget
+  }, []);
+
+  //function to save new income
   const handleSave=()=>{
     setIncome(tempIncome);
+    localStorage.setItem("income", JSON.stringify(tempIncome))
     setEditing(false);
   }
   const Total = calculateTotal();

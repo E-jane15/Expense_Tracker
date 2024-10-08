@@ -13,7 +13,6 @@ const Content = () => {
             <div className='column-1'>
                <Balance />
                <div className='chart-budget'>
-                <strong className='chart-title'>Total Balance</strong>
                <TotalBalanceChart/>
                <BudgetFolder/>
                </div>
