@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaEnvelope, FaLock, FaUser } from 'react-icons/fa'
 import './LoginPage.css'
+import Button from '../../components/Button/Button'
 
 const LoginPage = () => {
   return (
@@ -18,7 +19,7 @@ const LoginPage = () => {
                 <FaLock className='icon'/>
                 <input type="password" placeholder='Password'/>
             </div>
-            <Link to='/dashboard'><button >Log in</button></Link>
+            <Link to='/dashboard'><Button text='Login'/></Link>
         </form>
       </div>
       </div>

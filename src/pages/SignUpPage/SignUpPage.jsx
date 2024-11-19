@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaUser, FaEnvelope, FaLock } from 'react-icons/fa'
 import './SignUpPage.css'
+import Button from '../../components/Button/Button'
 
 const SignUpPage = () => {
   return (
@@ -23,7 +24,7 @@ const SignUpPage = () => {
         </div>
         <p>Already have and account? 
           <Link to="/login" className='login-link' > Click Here</Link></p>
-        <button >Sign Up</button>
+       <Button text='Sign Up'/>
         </form>
       </div>
   </div>

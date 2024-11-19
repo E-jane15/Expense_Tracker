@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import logo from '../../assets/logo.png'
 import homeimage from '../../assets/image-1.png'
 import './HomePage.css'
+import Button from '../../components/Button/Button'
 
 const HomePage = () => {
   return (
@@ -10,8 +11,8 @@ const HomePage = () => {
         <div  className='nav'>
            <img src={logo} alt="" className='logo' />
            <div className='btn-section'>
-            <Link to="/signup"><button className='btn'>Sign up</button></Link>
-            <Link to="/login"><button className='btn'>Log in</button></Link>
+            <Link to="/signup"><Button text='Sign in' style={{backgroundColor: "#ffff", color:'#119f45'}}/></Link>
+            <Link to="/login"><Button text='Login' style={{backgroundColor: "#ffff", color:'#119f45'}}/></Link>
            </div>
         </div>
         <div className='home-content'>
